@@ -1,0 +1,76 @@
+[
+  {
+    "slug": "backend-java-spring",
+    "title": "Backend Java/Spring từ nền tảng",
+    "description": "Đi từ Java Core đến Spring, database, mạng, DevOps rồi hệ phân tán. Ba vòng: dễ, vừa, khó.",
+    "minutesPerDay": 45,
+    "steps": [
+      { "topic": "java-core", "levels": [1] },
+      { "topic": "java-concurrency", "levels": [1] },
+      { "topic": "spring-boot", "levels": [1] },
+      { "topic": "database", "levels": [1] },
+      { "topic": "network-security", "levels": [1] },
+      { "topic": "devops", "levels": [1] },
+      { "topic": "java-core", "levels": [2] },
+      { "topic": "java-concurrency", "levels": [2] },
+      { "topic": "spring-boot", "levels": [2] },
+      { "topic": "database", "levels": [2] },
+      { "topic": "network-security", "levels": [2] },
+      { "topic": "devops", "levels": [2] },
+      { "topic": "redis" },
+      { "topic": "kafka" },
+      { "topic": "java-core", "levels": [3] },
+      { "topic": "java-concurrency", "levels": [3] },
+      { "topic": "spring-boot", "levels": [3] },
+      { "topic": "database", "levels": [3] },
+      { "topic": "system-design" }
+    ]
+  },
+  {
+    "slug": "he-thong-phan-tan",
+    "title": "Hệ thống phân tán",
+    "description": "Redis, Kafka rồi System Design: từ công cụ đơn lẻ đến thiết kế hệ thống.",
+    "minutesPerDay": 40,
+    "steps": [{ "topic": "redis" }, { "topic": "kafka" }, { "topic": "system-design" }]
+  },
+  {
+    "slug": "thuat-toan",
+    "title": "Thuật toán & cấu trúc dữ liệu",
+    "description": "Big-O, mảng/chuỗi/hash, cây, đồ thị, quy hoạch động. Mỗi ngày một phần nhỏ.",
+    "minutesPerDay": 30,
+    "steps": [{ "topic": "algorithms" }]
+  },
+  {
+    "slug": "javascript-tu-dau",
+    "title": "JavaScript từ đầu",
+    "description": "14 bài: kiểu dữ liệu, hàm, object, closure, prototype, async, DOM, iterator, Proxy, JavaScript hiện đại.",
+    "minutesPerDay": 40,
+    "steps": [{ "topic": "javascript" }]
+  },
+  {
+    "slug": "frontend-react",
+    "title": "Frontend với React",
+    "description": "HTML, CSS, JavaScript, nền tảng web và TypeScript, React từ dễ đến khó, rồi nối với Backend (Fullstack).",
+    "minutesPerDay": 40,
+    "steps": [{ "topic": "html" }, { "topic": "css" }, { "topic": "javascript" }, { "topic": "frontend-core" }, { "topic": "react" }, { "topic": "fullstack" }]
+  },
+  {
+    "slug": "frontend-vue",
+    "title": "Frontend với Vue 3",
+    "description": "HTML, CSS, JavaScript, nền tảng web và TypeScript, Vue 3 từ dễ đến khó, rồi nối với Backend (Fullstack).",
+    "minutesPerDay": 40,
+    "steps": [{ "topic": "html" }, { "topic": "css" }, { "topic": "javascript" }, { "topic": "frontend-core" }, { "topic": "vue" }, { "topic": "fullstack" }]
+  },
+  {
+    "slug": "on-phong-van-backend",
+    "title": "Ôn phỏng vấn Backend",
+    "description": "Bộ hỏi đáp có gợi ý suy luận (đọc, trả lời thành tiếng, rồi chấm), kèm câu hỏi hành vi.",
+    "minutesPerDay": 60,
+    "steps": [
+      { "topic": "qa-backend", "levels": [1], "kinds": ["qa"] },
+      { "topic": "qa-behavioral", "kinds": ["lesson"] },
+      { "topic": "qa-backend", "levels": [2], "kinds": ["qa"] },
+      { "topic": "qa-backend", "levels": [3], "kinds": ["qa"] }
+    ]
+  }
+]

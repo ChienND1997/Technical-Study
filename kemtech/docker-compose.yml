@@ -1,0 +1,46 @@
+services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-kemtech}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-kemtech}
+      POSTGRES_DB: ${POSTGRES_DB:-kemtech}
+    ports:
+      - "${DB_PORT:-5432}:5432"
+    volumes:
+      - kemtech_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-kemtech} -d ${POSTGRES_DB:-kemtech}"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  api:
+    build:
+      context: .
+      dockerfile: apps/api/Dockerfile
+    restart: unless-stopped
+    ports:
+      - "${API_PORT:-3000}:3000"
+    environment:
+      DATABASE_URL: postgres://${POSTGRES_USER:-kemtech}:${POSTGRES_PASSWORD:-kemtech}@db:5432/${POSTGRES_DB:-kemtech}
+      CONTENT_DIR: /docs-v2
+    volumes:
+      - ${CONTENT_DIR_HOST:-../docs-v2}:/docs-v2:ro
+    depends_on:
+      db:
+        condition: service_healthy
+
+  web:
+    build:
+      context: .
+      dockerfile: apps/web/Dockerfile
+    restart: unless-stopped
+    ports:
+      - "${WEB_PORT:-8080}:80"
+    depends_on:
+      - api
+
+volumes:
+  kemtech_pgdata:

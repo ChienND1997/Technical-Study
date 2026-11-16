@@ -1,0 +1,177 @@
+[
+  {
+    "slug": "roadmap",
+    "path": "00-Roadmap",
+    "title": "Lộ trình & Tài liệu định hướng",
+    "description": "Lộ trình 12 tuần, ôn nhanh 4 tuần, thang tự chấm, bài tập thuật toán",
+    "icon": "🧭"
+  },
+  {
+    "slug": "spring-boot",
+    "path": "01-Spring-Boot",
+    "title": "Spring Boot",
+    "description": "IoC, AOP, transaction, JPA, Security, Kafka, resilience, triển khai",
+    "icon": "🌱"
+  },
+  {
+    "slug": "database",
+    "path": "02-Database",
+    "title": "Database",
+    "description": "SQL, index, transaction, replication, PostgreSQL và MySQL bên trong",
+    "icon": "🗄️"
+  },
+  {
+    "slug": "network-security",
+    "path": "03-Network-Security",
+    "title": "Mạng & Bảo mật",
+    "description": "TCP/IP, HTTP, TLS, OWASP, xác thực",
+    "icon": "🔐"
+  },
+  {
+    "slug": "devops",
+    "path": "04-DevOps",
+    "title": "DevOps",
+    "description": "Linux, Git, CI/CD, Docker, Kubernetes, IaC",
+    "icon": "🐳"
+  },
+  {
+    "slug": "algorithms",
+    "path": "05-Algorithms",
+    "title": "Thuật toán",
+    "description": "Mẫu hình giải bài, cấu trúc dữ liệu",
+    "icon": "🧮"
+  },
+  {
+    "slug": "distributed-systems",
+    "path": "06-Distributed-Systems",
+    "title": "Hệ thống phân tán",
+    "description": "Redis và Kafka",
+    "icon": "🌐"
+  },
+  {
+    "slug": "kafka",
+    "path": "06-Distributed-Systems/Kafka",
+    "title": "Kafka",
+    "description": "Event log, delivery semantics, exactly-once",
+    "icon": "📨"
+  },
+  {
+    "slug": "redis",
+    "path": "06-Distributed-Systems/Redis",
+    "title": "Redis",
+    "description": "Cấu trúc dữ liệu, cache, cluster, khóa phân tán",
+    "icon": "⚡"
+  },
+  {
+    "slug": "interview-qa",
+    "path": "07-Interview-QA",
+    "title": "Câu hỏi phỏng vấn",
+    "description": "Backend, Frontend và Hành vi",
+    "icon": "🎤"
+  },
+  {
+    "slug": "qa-backend",
+    "path": "07-Interview-QA/Backend",
+    "title": "Hỏi đáp Backend",
+    "description": "Java, Spring, database, concurrency, bài code kinh điển",
+    "icon": "🎯"
+  },
+  {
+    "slug": "qa-behavioral",
+    "path": "07-Interview-QA/Behavioral",
+    "title": "Hành vi & Dẫn dắt",
+    "description": "STAR, code review, thương lượng",
+    "icon": "💬"
+  },
+  {
+    "slug": "qa-frontend",
+    "path": "07-Interview-QA/Frontend",
+    "title": "Hỏi đáp Frontend",
+    "description": "JavaScript, CSS, TypeScript, hiệu năng, bảo mật, tích hợp FE-BE",
+    "icon": "🖥️"
+  },
+  {
+    "slug": "java",
+    "path": "08-Java",
+    "title": "Java",
+    "description": "Java Core và Java Concurrency",
+    "icon": "☕"
+  },
+  {
+    "slug": "java-concurrency",
+    "path": "08-Java/Java-Concurrency",
+    "title": "Java Concurrency",
+    "description": "Đa luồng theo Java Concurrency in Practice",
+    "icon": "🧵"
+  },
+  {
+    "slug": "java-core",
+    "path": "08-Java/Java-Core",
+    "title": "Java Core",
+    "description": "Ngôn ngữ, collections, JVM, bộ nhớ, GC",
+    "icon": "☕"
+  },
+  {
+    "slug": "react",
+    "path": "09-React",
+    "title": "React",
+    "description": "Mô hình render, hooks, state, Server Components",
+    "icon": "⚛️"
+  },
+  {
+    "slug": "vue",
+    "path": "10-Vue",
+    "title": "Vue 3",
+    "description": "Reactivity, composable, Pinia, Nuxt",
+    "icon": "💚"
+  },
+  {
+    "slug": "frontend-core",
+    "path": "11-Frontend-Core",
+    "title": "Frontend dùng chung",
+    "description": "JavaScript runtime, TypeScript, hiệu năng, bảo mật, kiến trúc",
+    "icon": "🌍"
+  },
+  {
+    "slug": "fullstack",
+    "path": "12-Fullstack",
+    "title": "Fullstack",
+    "description": "Hợp đồng API, xác thực SPA, realtime, deploy, kiểm thử xuyên tầng",
+    "icon": "🔗"
+  },
+  {
+    "slug": "javascript",
+    "path": "13-JavaScript",
+    "title": "JavaScript",
+    "description": "Ngôn ngữ từ nền tảng đến nâng cao: kiểu dữ liệu, closure, prototype, async, DOM, iterator, Proxy, ES hiện đại",
+    "icon": "🟨"
+  },
+  {
+    "slug": "blog",
+    "path": "14-Blog",
+    "title": "Blog",
+    "description": "Bài viết chia sẻ kinh nghiệm từ cộng đồng",
+    "icon": "📰"
+  },
+  {
+    "slug": "system-design",
+    "path": "15-System Design",
+    "title": "System Design",
+    "description": "Khung giải 45 phút và các bài thiết kế điển hình",
+    "icon": "🏗️"
+  },
+  {
+    "slug": "html",
+    "path": "16-HTML",
+    "title": "HTML",
+    "description": "Ngữ nghĩa, form, accessibility, SEO, các API HTML5 từ nền tảng đến nâng cao",
+    "icon": "📄"
+  },
+  {
+    "slug": "css",
+    "path": "17-CSS",
+    "title": "CSS",
+    "description": "Box model, selector, Flexbox, Grid, responsive, kiến trúc CSS ở quy mô lớn",
+    "icon": "🎨"
+  }
+]
